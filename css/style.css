@@ -63,7 +63,8 @@ body{
   }
 
   .sidebar{
-      height: 600px;
+      height: 100%;
+      z-index: 1000;
   }
 
   .menu-btn{
