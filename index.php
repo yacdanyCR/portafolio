@@ -15,6 +15,7 @@
 </head>
 
 <body class="bg-light bg-gradient">
+
     <header>
         <!-- Side-Nav -->
         <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column sidebar" id="sidebar">
@@ -53,6 +54,7 @@
         </nav>
         <!--End Top Nav -->
         <div class="container">
+
             <div class="row" data-aos="fade-right" data-aos-duration="2000">
                 <a name="habilidades"></a>
                 <h2 class="text-dark p-3  bg-white bg-gradient" data-aos="fade-right">Habilidades
@@ -166,11 +168,8 @@
 
                     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <video src="video/videoplayback.mp4" muted controls></video>
 
-                            </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item active">
                                 <img src="img/proyectos/proyecto_1/Captura de pantalla (1).png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
@@ -193,7 +192,7 @@
                         </button>
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Practica Supervisada Restaurante Betico Mata & Parrilla</h5>
+                                <h5 class="card-title">Práctica Supervisada Restaurante Betico Mata & Parrilla</h5>
                                 <p class="card-text">Desarrollar un sitio para una pymes con una duración de 3 meses para concluir con la capacitación.</p>
 
                             </div>
@@ -202,33 +201,37 @@
                 </div>
 
                 <div class="col-md-6 mt-5">
-                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+                    <div id="carouselExampleControlsNoTouching2" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
                         <div class="carousel-inner">
+
                             <div class="carousel-item active">
-                                <video src="video/videoplayback.mp4" muted controls></video>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Card title</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                                    </div>
-                                </div>
+                                <img src="img/proyectos/proyecto_2/Captura de pantalla (5).png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
+                                <img src="img/proyectos/proyecto_2/Captura de pantalla (6).png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
+                                <img src="img/proyectos/proyecto_2/Captura de pantalla (7).png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/proyectos/proyecto_2/Captura de pantalla (8).png" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Mini Mercado Libre</h5>
+                                <p class="card-text">CRUD donde cada usuario pueda publicar sus productos y todos los puedan ver en la sección de productos asi como un login , registro.</p>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -254,7 +257,7 @@
                         </div>
 
 
-                        <textarea name="" id="" cols="40" rows="10" name="c_fmensaje" required></textarea><br>
+                        <textarea id="" cols="40" rows="10" name="c_fmensaje" required></textarea><br>
                         <button type="submit" class="btn btn btn-primary" name="enviaremail">Enviar</button>
                     </form>
                 </div>
@@ -274,8 +277,17 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="footer">
+                    <a href="#habilidades"><i class="ir-arriba bi bi-arrow-up-circle-fill"></i></a>
+                </div>
+            </div>
+        </div>
 
     </div>
+
+
 
     <script src="css/boostsrap/js/bootstrap.bundle.js"></script>
     <script src="css/aos/dist/aos.js"></script>
@@ -283,6 +295,8 @@
     <script>
         AOS.init();
     </script>
+
+
 
     <script src="js/menu_responsive.js"></script>
 </body>
