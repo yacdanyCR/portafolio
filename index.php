@@ -42,7 +42,7 @@
             <span href="#" class="nav-link h4 w-100 mb-5 icons-contact">
                 <a href="https://www.facebook.com/BlackHosh/" target="_blank"><i class="bi bi-facebook"></i></a>
                 <a href="https://github.com/Jack-CR" target="_blank"><i class="bi bi-github"></i></a>
-                <a href="tel:+89498924"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://wa.link/wsghi7" target="_blank"><i class="bi bi-whatsapp"></i></a>
             </span>
         </div>
     </header>
@@ -57,10 +57,10 @@
 
             <div class="row" data-aos="fade-right" data-aos-duration="2000">
                 <a name="habilidades"></a>
-                <h2 class="text-dark p-3  bg-white bg-gradient" data-aos="fade-right">Habilidades
+                <h2 class="text-dark p-3  bg-white bg-gradient border-0" data-aos="fade-right">Habilidades
                 </h2>
                 <div class="col-md-4 mt-4">
-                    <div class="card  bg-white bg-gradient" style="width: 18rem;">
+                    <div class="card  bg-white bg-gradient border-0 rounded" style="width: 18rem;">
 
 
                         <svg enable-background="new 0 0 1771 2499.8" viewBox="0 0 1771 2499.8" xmlns="http://www.w3.org/2000/svg">
@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-md-4 mt-4">
                     <div class="col-md-4">
-                        <div class="card  bg-white bg-gradient" style="width: 18rem;">
+                        <div class="card  bg-white bg-gradient border-0 rounded" style="width: 18rem;">
 
                             <svg xmlns="http://www.w3.org/2000/svg" width="1771" height="2500" viewBox="221.807 89.47 440 621.061" enable-background="new 221.807 89.47 440 621.061">
                                 <filter id="a" width="150%" height="150%" x="-5%" y="-5%">
@@ -105,7 +105,7 @@
                 </div>
                 <div class="col-md-4 mt-4">
                     <div class="card" style="width: 18rem;">
-                        <div class="card  bg-white bg-gradient" style="width: 18rem;">
+                        <div class="card  bg-white bg-gradient border-0 rounded" style="width: 18rem;">
 
                             <svg width="2500" height="1309" viewBox="0 0 256 134" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
                                 <g fill-rule="evenodd">
@@ -120,7 +120,7 @@
             </div>
             <div class="row" data-aos="fade-right" data-aos-duration="2000">
                 <div class="col-md-4 mt-4">
-                    <div class="card bg-light" style="width: 18rem;">
+                    <div class="card bg-white bg-gradient border-0 rounded" style="width: 18rem;">
 
                         <svg xmlns="http://www.w3.org/2000/svg" width="2500" height="2500" viewBox="0 0 192.756 192.756">
                             <g fill-rule="evenodd" clip-rule="evenodd">
@@ -135,7 +135,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-4">
-                    <div class="card  bg-white bg-gradient" style="width: 18rem;">
+                    <div class="card  bg-white bg-gradient border-0 rounded" style="width: 18rem;">
 
                         <svg xmlns="http://www.w3.org/2000/svg" width="2500" height="2500" viewBox="0 0 1052 1052">
                             <path fill="#f0db4f" d="M0 0h1052v1052H0z" />
@@ -146,7 +146,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 mt-4">
-                    <div class="card  bg-white bg-gradient" style="width: 18rem;">
+                    <div class="card  bg-white bg-gradient border-0 rounded" style="width: 18rem;">
 
 
                         <svg height="1992" viewBox="0 0 512 407.864" width="2500" xmlns="http://www.w3.org/2000/svg">
@@ -163,7 +163,7 @@
                 <div class="nueva_seccion">
 
                 </div>
-                <div class="col-md-6 mt-5">
+                <div class="col-md-6 mt-5 ">
                     <a name="proyectos"></a>
 
                     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
@@ -242,7 +242,7 @@
                 <div class="nueva_seccion">
                 </div>
 
-                <div class="col-md-6  bg-white bg-gradient" data-aos="flip-up" data-aos-duration="1200">
+                <div class="col-md-6  bg-white bg-gradient mt-4 border-0 rounded " data-aos="flip-up" data-aos-duration="1200">
 
                     <form method="POST" action="php/email.php">
                         <div class="mb-3">
@@ -276,16 +276,18 @@
                     ?>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="footer">
-                    <a href="#habilidades"><i class="ir-arriba bi bi-arrow-up-circle-fill"></i></a>
+            <div class="row mt-3 bg-white bg-gradient" >
+                </h2>
+                <div class="col-md-12  bg-dark bg-gradient border-0  rounded " >
+                    <div class="footer">
+                        <a href="#habilidades"><i class="ir-arriba bi bi-arrow-up-circle-fill"></i></a>
+                        <span class="text-white d-flex justify-content-center"> <?php echo date("Y"); ?> Copyright ® Yacdany Arguedas Mora | Cartago,Turrialba </span>
+                    </div>
                 </div>
             </div>
         </div>
-
     </div>
+
 
 
 
