@@ -573,7 +573,8 @@ url("./fonts/bootstrap-icons.woff?231ce25e89ab5804f9a6c427b8d325c9") format("wof
 .bi-emoji-sunglasses::before { content: "\f329"; }
 .bi-emoji-wink-fill::before { content: "\f32a"; }
 .bi-emoji-wink::before { content: "\f32b"; }
-.bi-envelope-fill::before { content: "\f32c"; }
+.bi-envelope-fill::before { content: "\f32c";
+color: #100901;font-size: 80px; }
 .bi-envelope-open-fill::before { content: "\f32d"; }
 .bi-envelope-open::before { content: "\f32e"; }
 .bi-envelope::before { content: "\f32f"; }
@@ -1221,7 +1222,8 @@ url("./fonts/bootstrap-icons.woff?231ce25e89ab5804f9a6c427b8d325c9") format("wof
 .bi-tags-fill::before { content: "\f5b1"; }
 .bi-tags::before { content: "\f5b2"; }
 .bi-telegram::before { content: "\f5b3"; }
-.bi-telephone-fill::before { content: "\f5b4"; }
+.bi-telephone-fill::before { content: "\f5b4";
+color: #100901;font-size: 80px; }
 .bi-telephone-forward-fill::before { content: "\f5b5"; }
 .bi-telephone-forward::before { content: "\f5b6"; }
 .bi-telephone-inbound-fill::before { content: "\f5b7"; }

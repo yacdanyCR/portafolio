@@ -21,7 +21,7 @@
         <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column sidebar" id="sidebar">
             <ul class="nav flex-column text-white w-100">
                 <img src="img/logo/40683814_2024764377585594_7330819088991649792_n.jpg" style="width:100%;" alt="">
-                <a href="index.html" class="nav-link h3 text-white my-2">
+                <a href="index.php" class="nav-link h3 text-white my-2">
                     Yacdany Arguedas Mora </br>
                 </a>
                 <li href="#" class="nav-link">
@@ -237,12 +237,12 @@
 
             </div>
 
-            <div class="row mt-5">
+            <div class="row mt-5 d-flex bg-white bg-gradient border rounded">
                 <h2>Contacto</h2>
                 <div class="nueva_seccion">
                 </div>
 
-                <div class="col-md-6  bg-white bg-gradient mt-4 border-0 rounded " data-aos="flip-up" data-aos-duration="1200">
+                <div class="col-md-6 mt-4 bg-light bg-gradient border border-light " data-aos="flip-up" data-aos-duration="1200">
 
                     <form method="POST" action="php/email.php">
                         <div class="mb-3">
@@ -261,46 +261,55 @@
                         <button type="submit" class="btn btn btn-primary" name="enviaremail">Enviar</button>
                     </form>
                 </div>
-                <a name="contacto"></a>
-            </div>
-            <div class="row">
-                <div class="col-md-3">
-                    <?php
-                    if (isset($_GET['success'])) {
-                    ?>
-                        <div class="alert alert-success" role="alert">
-                            Mensaje Enviado!
+                <div class="col-md-6 d-flex justify-content-center mt-4 info_contacto">
+                    <div class="d-flex align-items-start flex-column">
+                        <div class="mt-5 mb-2 p-2 bg-light bg-gradient border rounded-0" data-aos="flip-down" data-aos-duration="1500"><a href="tel:+50689498924"><i class="bi bi-telephone-fill"></i></a>
                         </div>
-                    <?php
-                    }
-                    ?>
+
+                        <div class="mt-5 mb-2 p-2 bg-light bg-gradient border rounded" data-aos="flip-down" data-aos-duration="1500"><a href="mailto: jack20-21@hotmail.com"><i class="bi bi-envelope-fill"></i></a>
+                        </div>
+                    </div>
+                    <br>
+                    <a name="contacto"></a>
                 </div>
-            </div>
-            <div class="row mt-3 bg-white bg-gradient" >
-                </h2>
-                <div class="col-md-12  bg-dark bg-gradient border-0  rounded " >
-                    <div class="footer">
-                        <a href="#habilidades"><i class="ir-arriba bi bi-arrow-up-circle-fill"></i></a>
-                        <span class="text-white d-flex justify-content-center"> <?php echo date("Y"); ?> Copyright ® Yacdany Arguedas Mora | Cartago,Turrialba </span>
+                <div class="row">
+                    <div class="col-md-3">
+                        <?php
+                        if (isset($_GET['success'])) {
+                        ?>
+                            <div class="alert alert-success" role="alert">
+                                Mensaje Enviado!
+                            </div>
+                        <?php
+                        }
+                        ?>
+                    </div>
+                </div>
+                <div class="row mt-3 bg-white bg-gradient">
+                    </h2>
+                    <div class="col-md-12  bg-dark bg-gradient border-0  rounded ">
+                        <div class="footer">
+                            <a href="#habilidades"><i class="ir-arriba bi bi-arrow-up-circle-fill"></i></a>
+                            <span class="text-white d-flex justify-content-center"> <?php echo date("Y"); ?> Copyright ® Yacdany Arguedas Mora | Cartago,Turrialba </span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
 
-    <script src="css/boostsrap/js/bootstrap.bundle.js"></script>
-    <script src="css/aos/dist/aos.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-    <script>
-        AOS.init();
-    </script>
+        <script src="css/boostsrap/js/bootstrap.bundle.js"></script>
+        <script src="css/aos/dist/aos.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+        <script>
+            AOS.init();
+        </script>
 
 
 
-    <script src="js/menu_responsive.js"></script>
+        <script src="js/menu_responsive.js"></script>
 </body>
 
 </html>
