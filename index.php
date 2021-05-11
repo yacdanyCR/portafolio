@@ -261,17 +261,7 @@
                         <button type="submit" class="btn btn-primary btn-md" name="enviaremail">Enviar</button>
                     </form>
                 </div>
-               <!-- <div class="col-md-6 d-flex justify-content-center mt-4 info_contacto">
-                    <div class="d-flex align-items-start flex-column">
-                        <div class="mt-5 mb-2 p-2 bg-light bg-gradient border rounded-0" data-aos="flip-down" data-aos-duration="1500"><a href="tel:+50689498924"><i class="bi bi-telephone-fill"></i></a>
-                        </div>
-
-                        <div class="mt-5 mb-2 p-2 bg-light bg-gradient border rounded" data-aos="flip-down" data-aos-duration="1500"><a href="mailto: jack20-21@hotmail.com"><i class="bi bi-envelope-fill"></i></a>
-                        </div>
-                    </div>
-                    <br>
-                    <a name="contacto"></a>
-                </div>-->
+           
                 <div class="row">
                     <div class="col-md-3">
                         <?php
@@ -289,7 +279,6 @@
                     </h2>
                     <div class="col-md-12  border-0 rounded footer">
                         <div class="footer">
-                            <!--<a href="#habilidades"><i class="ir-arriba bi bi-arrow-up-circle-fill"></i></a>-->
                             <div id="button-up">
                                 <i class=" bi bi-arrow-up-circle-fill"></i>
                             </div>
