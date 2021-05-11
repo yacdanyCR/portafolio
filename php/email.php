@@ -14,7 +14,7 @@ $mensaje .= "Mensaje: " . $_POST['c_fmensaje'] . " \r\n";
 $mensaje .= "\nEnviado el " . date('d/m/Y', time());
 
 $para = 'jack20-21@hotmail.com';/* <- email destinario*/
-$asunto = 'Mensaje de mi sitio web';
+$asunto = 'Mensaje de mi Portafolio';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
 

@@ -17,7 +17,7 @@
 <body class="bg-light bg-gradient">
 
     <header>
-        
+
         <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column sidebar" id="sidebar">
             <ul class="nav flex-column text-white w-100">
                 <img src="img/logo/40683814_2024764377585594_7330819088991649792_n.jpg" style="width:100%;" alt="">
@@ -39,20 +39,20 @@
                 </li>
             </ul>
 
-            <span href="#" class="nav-link h4 w-100 mb-5 icons-contact">
+            <span class="nav-link h4 w-100 mb-5 icons-contact">
                 <a href="https://www.linkedin.com/in/yacdany-arguedas-mora-22592b211?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSO7dUR3OTk%2B%2BGuxtHweVOQ%3D%3D" target="_blank"><i class="bi bi-linkedin"></i></a>
                 <a href="https://github.com/Jack-CR" target="_blank"><i class="bi bi-github"></i></a>
                 <a href="https://wa.link/wsghi7" target="_blank"><i class="bi bi-whatsapp"></i></a>
             </span>
         </div>
     </header>
-    
+
     <div class=" p-1 my-container active-cont">
-        
+
         <nav class="navbar top-navbar navbar-light  px-5">
             <a class="btn border-0 menu-btn" id="menu-btn"><i class="bi bi-list"></i></a>
         </nav>
-        
+
         <div class="container">
 
             <div class="row" data-aos="fade-right" data-aos-duration="2000">
@@ -257,8 +257,8 @@
                         </div>
 
 
-                        <textarea id="" cols="40" rows="10" name="c_fmensaje" required></textarea><br>
-                        <button type="submit" class="btn btn btn-primary" name="enviaremail">Enviar</button>
+                        <textarea cols="40" rows="10" name="c_fmensaje" required></textarea><br>
+                        <button type="submit" class="btn btn btn-primary btn btn-md" name="enviaremail">Enviar</button>
                     </form>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center mt-4 info_contacto">
@@ -290,7 +290,7 @@
                     <div class="col-md-12  bg-dark bg-gradient border-0  rounded ">
                         <div class="footer">
                             <a href="#habilidades"><i class="ir-arriba bi bi-arrow-up-circle-fill"></i></a>
-                            <span class="text-white d-flex justify-content-center"> <?php echo date("Y"); ?> Copyright ® Yacdany Arguedas Mora | Cartago,Turrialba </span>
+                            <span class="text-white d-flex justify-content-center"> <?php echo date("Y"); ?> Yacdany Arguedas Mora | Cartago,Turrialba </span>
                         </div>
                     </div>
                 </div>
