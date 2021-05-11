@@ -258,7 +258,7 @@
 
 
                         <textarea cols="40" rows="10" name="c_fmensaje" required></textarea><br>
-                        <button type="submit" class="btn btn btn-primary btn btn-md" name="enviaremail">Enviar</button>
+                        <button type="submit" class="btn btn-primary btn-md" name="enviaremail">Enviar</button>
                     </form>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center mt-4 info_contacto">
@@ -287,18 +287,18 @@
                 </div>
                 <div class="row mt-3 bg-white bg-gradient">
                     </h2>
-                    <div class="col-md-12  bg-dark bg-gradient border-0  rounded ">
+                    <div class="col-md-12  border-0 rounded footer">
                         <div class="footer">
-                            <a href="#habilidades"><i class="ir-arriba bi bi-arrow-up-circle-fill"></i></a>
+                            <!--<a href="#habilidades"><i class="ir-arriba bi bi-arrow-up-circle-fill"></i></a>-->
+                            <div id="button-up">
+                                <i class=" bi bi-arrow-up-circle-fill"></i>
+                            </div>
                             <span class="text-white d-flex justify-content-center"> <?php echo date("Y"); ?> Yacdany Arguedas Mora | Cartago,Turrialba </span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-
 
         <script src="css/boostsrap/js/bootstrap.bundle.js"></script>
         <script src="css/aos/dist/aos.js"></script>
@@ -307,9 +307,8 @@
             AOS.init();
         </script>
 
-
-
         <script src="js/menu_responsive.js"></script>
+        <script src="js/btn_subir.js"></script>
 </body>
 
 </html>

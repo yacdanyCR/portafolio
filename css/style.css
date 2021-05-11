@@ -7,7 +7,7 @@ body{
     height: 100%;
     position: fixed;
     margin-left: -300px;
-    background-color: #100901;
+    background-color: #46a2fd;
     transition: 0.5s;
   }
   
@@ -31,7 +31,7 @@ body{
   }
   
   #menu-btn {
-    background-color: #100901;
+    background-color: #46a2fd;
     color: #fff;
     margin-left: -62px;
   }
@@ -42,7 +42,7 @@ body{
   }
   .icons-contact>a{
       margin: 4px;
-      color: black;
+      color: #100901;
   }
 
   a{
@@ -74,19 +74,37 @@ body{
   }
 
  
-  .ir-arriba {
-    padding:20px;
-    cursor:pointer;
+
+  #button-up{
+    width: 60px;
+    height: 60px;
+    background:#46a2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
     position: fixed;
-    bottom:15px;
-      right:20px;
-      border-radius: 30px;
-      z-index: 1000000;
-      font-size: 50px;
-      color: #100901;
-  }
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+    
+}
+
+#button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}
 
 
 .info_contacto{
   padding-top: 60px;
+}
+
+.footer{
+  background-color: #46a2fd;
 }
