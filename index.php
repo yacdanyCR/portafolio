@@ -37,6 +37,10 @@
                     <i class="bx bx-conversation"></i>
                     <span class="mx-2"><i class="bi bi-envelope"></i> <a href="#contacto"> Contacto </a></span>
                 </li>
+                <li href="#" class="nav-link">
+                    <i class="bx bx-conversation"></i>
+                    <span class="mx-2"><i class="bi bi-file-earmark-fill"></i> <a href="https://drive.google.com/file/d/1mi67AgIZqjY4_FPug1UcBJAb2xt6aTaQ/view?usp=sharing" target="_blank"> Curriuclum </a></span>
+                </li>
             </ul>
 
             <span class="nav-link h4 w-100 mb-5 icons-contact">
@@ -170,9 +174,10 @@
                         <div class="carousel-inner">
 
                             <div class="carousel-item active">
-                                <img src="img/proyectos/proyecto_1/Captura de pantalla (1).png" class="d-block w-100" alt="...">
+                                <img src="img/proyectos/proyecto_1/Captura de pantalla (9).png" class="d-block w-100" alt="...">
                             </div>
-                            <div class="carousel-item">
+
+                            <div class="carousel-item ">
                                 <img src="img/proyectos/proyecto_1/Captura de pantalla (2).png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
@@ -207,9 +212,7 @@
                             <div class="carousel-item active">
                                 <img src="img/proyectos/proyecto_2/Captura de pantalla (5).png" class="d-block w-100" alt="...">
                             </div>
-                            <div class="carousel-item">
-                                <img src="img/proyectos/proyecto_2/Captura de pantalla (6).png" class="d-block w-100" alt="...">
-                            </div>
+
                             <div class="carousel-item">
                                 <img src="img/proyectos/proyecto_2/Captura de pantalla (7).png" class="d-block w-100" alt="...">
                             </div>
@@ -228,7 +231,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Mini Mercado Libre</h5>
-                                <p class="card-text">CRUD donde cada usuario pueda publicar sus productos y todos los puedan ver en la sección de productos asi como un login , registro.</p>
+                                <p class="card-text">CRUD donde cada usuario pueda publicar sus productos y todos los puedan ver en la sección de productos asi como un login , registro etc.</p>
 
                             </div>
                         </div>
@@ -239,6 +242,7 @@
 
             <div class="row mt-5 d-flex bg-white bg-gradient border rounded d-flex justify-content-center">
                 <h2>Contacto</h2>
+                <a name="contacto"></a>
                 <div class="nueva_seccion">
                 </div>
 
@@ -261,7 +265,7 @@
                         <button type="submit" class="btn btn-primary btn-md" name="enviaremail">Enviar</button>
                     </form>
                 </div>
-           
+
                 <div class="row">
                     <div class="col-md-3">
                         <?php
