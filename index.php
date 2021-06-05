@@ -37,10 +37,6 @@
                     <i class="bx bx-conversation"></i>
                     <span class="mx-2"><i class="bi bi-envelope"></i> <a href="#contacto"> Contacto </a></span>
                 </li>
-                <li href="#" class="nav-link">
-                    <i class="bx bx-conversation"></i>
-                    <span class="mx-2"><i class="bi bi-file-earmark-fill"></i> <a href="https://drive.google.com/file/d/1mi67AgIZqjY4_FPug1UcBJAb2xt6aTaQ/view?usp=sharing" target="_blank"> Curriuclum </a></span>
-                </li>
             </ul>
 
             <span class="nav-link h4 w-100 mb-5 icons-contact">
@@ -199,7 +195,10 @@
                             <div class="card-body">
                                 <h5 class="card-title">Práctica Supervisada Restaurante Betico Mata & Parrilla</h5>
                                 <p class="card-text">Desarrollar un sitio para una pymes con una duración de 3 meses para concluir con la capacitación.</p>
-
+                                <ul>
+                                    <li>Panel de Administración para el dueño</li>
+                                    <li>Formulario de Contacto</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -210,14 +209,23 @@
                         <div class="carousel-inner">
 
                             <div class="carousel-item active">
-                                <img src="img/proyectos/proyecto_2/Captura de pantalla (5).png" class="d-block w-100" alt="...">
+                                <img src="img/proyectos/proyecto_2/1.png" class="d-block w-100" alt="...">
                             </div>
 
                             <div class="carousel-item">
-                                <img src="img/proyectos/proyecto_2/Captura de pantalla (7).png" class="d-block w-100" alt="...">
+                                <img src="img/proyectos/proyecto_2/2.png" class="d-block w-100" alt="...">
                             </div>
                             <div class="carousel-item">
-                                <img src="img/proyectos/proyecto_2/Captura de pantalla (8).png" class="d-block w-100" alt="...">
+                                <img src="img/proyectos/proyecto_2/3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/proyectos/proyecto_2/4.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/proyectos/proyecto_2/5.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/proyectos/proyecto_2/6.png" class="d-block w-100" alt="...">
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="prev">
@@ -231,13 +239,20 @@
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Mini Mercado Libre</h5>
-                                <p class="card-text">CRUD donde cada usuario pueda publicar sus productos y todos los puedan ver en la sección de productos asi como un login , registro etc.</p>
+                                <p class="card-text">Aplicación web donde cada usuario puede publicar sus productos y realizar varias de las funciones de un mercado libre como:</p>
+                                <ul>
+                                    <li>Iniciar Sessión</li>
+                                    <li>Registrarse</li>
+                                    <li>Agregar,Quitar,Eliminar,Actualizar sus Productos</li>
+                                    <li>Ver productos de otros Usuarios</li>
+                                    <li>Comentar los productos</li>
+                                    <li>Formulario de Contacto</li>
+                                </ul>
 
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
 
             <div class="row mt-5 d-flex bg-white bg-gradient border rounded d-flex justify-content-center">
