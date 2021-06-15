@@ -15,36 +15,10 @@
 </head>
 
 <body class="bg-light bg-gradient">
-
+    <!-- HEADER -->
     <header>
-
-        <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column sidebar" id="sidebar">
-            <ul class="nav flex-column text-white w-100">
-                <img src="img/logo/40683814_2024764377585594_7330819088991649792_n.jpg" style="width:100%;" alt="">
-                <a href="index.php" class="nav-link h3 text-white my-2">
-                    Yacdany Arguedas Mora </br>
-                </a>
-                <li href="#" class="nav-link">
-                    <i class="bx bxs-dashboard"></i>
-                    <span class="mx-2"><i class="bi bi-gear-wide-connected"></i><a href="#habilidades">
-                            Habilidades</a></span>
-                </li>
-                <li href="#" class="nav-link">
-                    <i class="bx bx-user-check"></i>
-                    <span class="mx-2"><i class="bi bi-cpu-fill"></i><a href="#proyectos"> Proyectos </a></span>
-                </li>
-                <li href="#" class="nav-link">
-                    <i class="bx bx-conversation"></i>
-                    <span class="mx-2"><i class="bi bi-envelope"></i> <a href="#contacto"> Contacto </a></span>
-                </li>
-            </ul>
-
-            <span class="nav-link h4 w-100 mb-5 icons-contact">
-                <a href="https://www.linkedin.com/in/yacdany-arguedas-mora-22592b211?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BSO7dUR3OTk%2B%2BGuxtHweVOQ%3D%3D" target="_blank"><i class="bi bi-linkedin"></i></a>
-                <a href="https://github.com/Jack-CR" target="_blank"><i class="bi bi-github"></i></a>
-                <a href="https://wa.link/wsghi7" target="_blank"><i class="bi bi-whatsapp"></i></a>
-            </span>
-        </div>
+        <?php include_once 'layouts/header.php'
+        ?>
     </header>
 
     <div class=" p-1 my-container active-cont">
@@ -122,7 +96,7 @@
                 </div>
             </div>
             <div class="row" data-aos="fade-right" data-aos-duration="2000">
-            <!-- MYSQL SVG -->
+                <!-- MYSQL SVG -->
                 <div class="col-md-4 mt-4">
                     <div class="card bg-white bg-gradient border-0 rounded" style="width: 18rem;">
 
@@ -167,7 +141,9 @@
                     <div class="card  bg-white bg-gradient border-0 rounded" style="width: 18rem;">
 
 
-                       <svg height="2500" viewBox="0 -.11376601 49.74245785 51.31690859" width="2418" xmlns="http://www.w3.org/2000/svg"><path d="m49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1 -.402.694l-9.209 5.302v10.509c0 .286-.152.55-.4.694l-19.223 11.066c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1 -.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054l-19.219-11.066a.801.801 0 0 1 -.402-.694v-32.916c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216zm-36.84-31.068v31.068l17.618 10.143v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-21.483l-4.645-2.676-3.363-1.934zm8.81-5.994-8.007 4.609 8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764 4.645-2.674v-20.096l-3.363 1.936-4.646 2.675v20.096zm24.667-23.325-8.006 4.609 8.006 4.609 8.005-4.61zm-.801 10.605-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937zm-18.422 20.561 11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833z" fill="#ff2d20"/></svg>
+                        <svg height="2500" viewBox="0 -.11376601 49.74245785 51.31690859" width="2418" xmlns="http://www.w3.org/2000/svg">
+                            <path d="m49.626 11.564a.809.809 0 0 1 .028.209v10.972a.8.8 0 0 1 -.402.694l-9.209 5.302v10.509c0 .286-.152.55-.4.694l-19.223 11.066c-.044.025-.092.041-.14.058-.018.006-.035.017-.054.022a.805.805 0 0 1 -.41 0c-.022-.006-.042-.018-.063-.026-.044-.016-.09-.03-.132-.054l-19.219-11.066a.801.801 0 0 1 -.402-.694v-32.916c0-.072.01-.142.028-.21.006-.023.02-.044.028-.067.015-.042.029-.085.051-.124.015-.026.037-.047.055-.071.023-.032.044-.065.071-.093.023-.023.053-.04.079-.06.029-.024.055-.05.088-.069h.001l9.61-5.533a.802.802 0 0 1 .8 0l9.61 5.533h.002c.032.02.059.045.088.068.026.02.055.038.078.06.028.029.048.062.072.094.017.024.04.045.054.071.023.04.036.082.052.124.008.023.022.044.028.068a.809.809 0 0 1 .028.209v20.559l8.008-4.611v-10.51c0-.07.01-.141.028-.208.007-.024.02-.045.028-.068.016-.042.03-.085.052-.124.015-.026.037-.047.054-.071.024-.032.044-.065.072-.093.023-.023.052-.04.078-.06.03-.024.056-.05.088-.069h.001l9.611-5.533a.801.801 0 0 1 .8 0l9.61 5.533c.034.02.06.045.09.068.025.02.054.038.077.06.028.029.048.062.072.094.018.024.04.045.054.071.023.039.036.082.052.124.009.023.022.044.028.068zm-1.574 10.718v-9.124l-3.363 1.936-4.646 2.675v9.124l8.01-4.611zm-9.61 16.505v-9.13l-4.57 2.61-13.05 7.448v9.216zm-36.84-31.068v31.068l17.618 10.143v-9.214l-9.204-5.209-.003-.002-.004-.002c-.031-.018-.057-.044-.086-.066-.025-.02-.054-.036-.076-.058l-.002-.003c-.026-.025-.044-.056-.066-.084-.02-.027-.044-.05-.06-.078l-.001-.003c-.018-.03-.029-.066-.042-.1-.013-.03-.03-.058-.038-.09v-.001c-.01-.038-.012-.078-.016-.117-.004-.03-.012-.06-.012-.09v-21.483l-4.645-2.676-3.363-1.934zm8.81-5.994-8.007 4.609 8.005 4.609 8.006-4.61-8.006-4.608zm4.164 28.764 4.645-2.674v-20.096l-3.363 1.936-4.646 2.675v20.096zm24.667-23.325-8.006 4.609 8.006 4.609 8.005-4.61zm-.801 10.605-4.646-2.675-3.363-1.936v9.124l4.645 2.674 3.364 1.937zm-18.422 20.561 11.743-6.704 5.87-3.35-8-4.606-9.211 5.303-8.395 4.833z" fill="#ff2d20" />
+                        </svg>
 
 
                     </div>
@@ -177,7 +153,9 @@
                     <div class="card  bg-white bg-gradient border-0 rounded" style="width: 18rem;">
 
 
-                    <svg width="2500" height="2500" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><path d="M251.172 116.594L139.4 4.828c-6.433-6.437-16.873-6.437-23.314 0l-23.21 23.21 29.443 29.443c6.842-2.312 14.688-.761 20.142 4.693 5.48 5.489 7.02 13.402 4.652 20.266l28.375 28.376c6.865-2.365 14.786-.835 20.269 4.657 7.663 7.66 7.663 20.075 0 27.74-7.665 7.666-20.08 7.666-27.749 0-5.764-5.77-7.188-14.235-4.27-21.336l-26.462-26.462-.003 69.637a19.82 19.82 0 0 1 5.188 3.71c7.663 7.66 7.663 20.076 0 27.747-7.665 7.662-20.086 7.662-27.74 0-7.663-7.671-7.663-20.086 0-27.746a19.654 19.654 0 0 1 6.421-4.281V94.196a19.378 19.378 0 0 1-6.421-4.281c-5.806-5.798-7.202-14.317-4.227-21.446L81.47 39.442l-76.64 76.635c-6.44 6.443-6.44 16.884 0 23.322l111.774 111.768c6.435 6.438 16.873 6.438 23.316 0l111.251-111.249c6.438-6.44 6.438-16.887 0-23.324" fill="#DE4C36"/></svg>
+                        <svg width="2500" height="2500" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
+                            <path d="M251.172 116.594L139.4 4.828c-6.433-6.437-16.873-6.437-23.314 0l-23.21 23.21 29.443 29.443c6.842-2.312 14.688-.761 20.142 4.693 5.48 5.489 7.02 13.402 4.652 20.266l28.375 28.376c6.865-2.365 14.786-.835 20.269 4.657 7.663 7.66 7.663 20.075 0 27.74-7.665 7.666-20.08 7.666-27.749 0-5.764-5.77-7.188-14.235-4.27-21.336l-26.462-26.462-.003 69.637a19.82 19.82 0 0 1 5.188 3.71c7.663 7.66 7.663 20.076 0 27.747-7.665 7.662-20.086 7.662-27.74 0-7.663-7.671-7.663-20.086 0-27.746a19.654 19.654 0 0 1 6.421-4.281V94.196a19.378 19.378 0 0 1-6.421-4.281c-5.806-5.798-7.202-14.317-4.227-21.446L81.47 39.442l-76.64 76.635c-6.44 6.443-6.44 16.884 0 23.322l111.774 111.768c6.435 6.438 16.873 6.438 23.316 0l111.251-111.249c6.438-6.44 6.438-16.887 0-23.324" fill="#DE4C36" />
+                        </svg>
 
                     </div>
                 </div>
@@ -186,7 +164,12 @@
                     <div class="card  bg-white bg-gradient border-0 rounded" style="width: 18rem;">
 
 
-                   <svg width="2500" height="2432" viewBox="0 0 256 249" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet"><g fill="#161614"><path d="M127.505 0C57.095 0 0 57.085 0 127.505c0 56.336 36.534 104.13 87.196 120.99 6.372 1.18 8.712-2.766 8.712-6.134 0-3.04-.119-13.085-.173-23.739-35.473 7.713-42.958-15.044-42.958-15.044-5.8-14.738-14.157-18.656-14.157-18.656-11.568-7.914.872-7.752.872-7.752 12.804.9 19.546 13.14 19.546 13.14 11.372 19.493 29.828 13.857 37.104 10.6 1.144-8.242 4.449-13.866 8.095-17.05-28.32-3.225-58.092-14.158-58.092-63.014 0-13.92 4.981-25.295 13.138-34.224-1.324-3.212-5.688-16.18 1.235-33.743 0 0 10.707-3.427 35.073 13.07 10.17-2.826 21.078-4.242 31.914-4.29 10.836.048 21.752 1.464 31.942 4.29 24.337-16.497 35.029-13.07 35.029-13.07 6.94 17.563 2.574 30.531 1.25 33.743 8.175 8.929 13.122 20.303 13.122 34.224 0 48.972-29.828 59.756-58.22 62.912 4.573 3.957 8.648 11.717 8.648 23.612 0 17.06-.148 30.791-.148 34.991 0 3.393 2.295 7.369 8.759 6.117 50.634-16.879 87.122-64.656 87.122-120.973C255.009 57.085 197.922 0 127.505 0"/><path d="M47.755 181.634c-.28.633-1.278.823-2.185.389-.925-.416-1.445-1.28-1.145-1.916.275-.652 1.273-.834 2.196-.396.927.415 1.455 1.287 1.134 1.923M54.027 187.23c-.608.564-1.797.302-2.604-.589-.834-.889-.99-2.077-.373-2.65.627-.563 1.78-.3 2.616.59.834.899.996 2.08.36 2.65M58.33 194.39c-.782.543-2.06.034-2.849-1.1-.781-1.133-.781-2.493.017-3.038.792-.545 2.05-.055 2.85 1.07.78 1.153.78 2.513-.019 3.069M65.606 202.683c-.699.77-2.187.564-3.277-.488-1.114-1.028-1.425-2.487-.724-3.258.707-.772 2.204-.555 3.302.488 1.107 1.026 1.445 2.496.7 3.258M75.01 205.483c-.307.998-1.741 1.452-3.185 1.028-1.442-.437-2.386-1.607-2.095-2.616.3-1.005 1.74-1.478 3.195-1.024 1.44.435 2.386 1.596 2.086 2.612M85.714 206.67c.036 1.052-1.189 1.924-2.705 1.943-1.525.033-2.758-.818-2.774-1.852 0-1.062 1.197-1.926 2.721-1.951 1.516-.03 2.758.815 2.758 1.86M96.228 206.267c.182 1.026-.872 2.08-2.377 2.36-1.48.27-2.85-.363-3.039-1.38-.184-1.052.89-2.105 2.367-2.378 1.508-.262 2.857.355 3.049 1.398"/></g></svg>
+                        <svg width="2500" height="2432" viewBox="0 0 256 249" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
+                            <g fill="#161614">
+                                <path d="M127.505 0C57.095 0 0 57.085 0 127.505c0 56.336 36.534 104.13 87.196 120.99 6.372 1.18 8.712-2.766 8.712-6.134 0-3.04-.119-13.085-.173-23.739-35.473 7.713-42.958-15.044-42.958-15.044-5.8-14.738-14.157-18.656-14.157-18.656-11.568-7.914.872-7.752.872-7.752 12.804.9 19.546 13.14 19.546 13.14 11.372 19.493 29.828 13.857 37.104 10.6 1.144-8.242 4.449-13.866 8.095-17.05-28.32-3.225-58.092-14.158-58.092-63.014 0-13.92 4.981-25.295 13.138-34.224-1.324-3.212-5.688-16.18 1.235-33.743 0 0 10.707-3.427 35.073 13.07 10.17-2.826 21.078-4.242 31.914-4.29 10.836.048 21.752 1.464 31.942 4.29 24.337-16.497 35.029-13.07 35.029-13.07 6.94 17.563 2.574 30.531 1.25 33.743 8.175 8.929 13.122 20.303 13.122 34.224 0 48.972-29.828 59.756-58.22 62.912 4.573 3.957 8.648 11.717 8.648 23.612 0 17.06-.148 30.791-.148 34.991 0 3.393 2.295 7.369 8.759 6.117 50.634-16.879 87.122-64.656 87.122-120.973C255.009 57.085 197.922 0 127.505 0" />
+                                <path d="M47.755 181.634c-.28.633-1.278.823-2.185.389-.925-.416-1.445-1.28-1.145-1.916.275-.652 1.273-.834 2.196-.396.927.415 1.455 1.287 1.134 1.923M54.027 187.23c-.608.564-1.797.302-2.604-.589-.834-.889-.99-2.077-.373-2.65.627-.563 1.78-.3 2.616.59.834.899.996 2.08.36 2.65M58.33 194.39c-.782.543-2.06.034-2.849-1.1-.781-1.133-.781-2.493.017-3.038.792-.545 2.05-.055 2.85 1.07.78 1.153.78 2.513-.019 3.069M65.606 202.683c-.699.77-2.187.564-3.277-.488-1.114-1.028-1.425-2.487-.724-3.258.707-.772 2.204-.555 3.302.488 1.107 1.026 1.445 2.496.7 3.258M75.01 205.483c-.307.998-1.741 1.452-3.185 1.028-1.442-.437-2.386-1.607-2.095-2.616.3-1.005 1.74-1.478 3.195-1.024 1.44.435 2.386 1.596 2.086 2.612M85.714 206.67c.036 1.052-1.189 1.924-2.705 1.943-1.525.033-2.758-.818-2.774-1.852 0-1.062 1.197-1.926 2.721-1.951 1.516-.03 2.758.815 2.758 1.86M96.228 206.267c.182 1.026-.872 2.08-2.377 2.36-1.48.27-2.85-.363-3.039-1.38-.184-1.052.89-2.105 2.367-2.378 1.508-.262 2.857.355 3.049 1.398" />
+                            </g>
+                        </svg>
 
                     </div>
                 </div>
@@ -203,8 +186,8 @@
                     <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-ride="carousel">
                         <div class="carousel-inner">
 
-                            <div class="carousel-item active" >
-                                <img  src="img/proyectos/proyecto_1/Captura de pantalla (9).png" class="d-block w-100" alt="imagen">
+                            <div class="carousel-item active">
+                                <img src="img/proyectos/proyecto_1/Captura de pantalla (9).png" class="d-block w-100" alt="imagen">
                             </div>
 
                             <div class="carousel-item ">
@@ -218,11 +201,11 @@
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-                            <span  aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-                            <span  aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
                         <div class="card">
@@ -239,10 +222,10 @@
                 </div>
 
                 <div class="col-md-6 mt-5">
-                    <div id="carouselExampleControlsNoTouching2" class="carousel slide"data-bs-ride="carousel">
+                    <div id="carouselExampleControlsNoTouching2" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner" data-bs-interval="10000">
 
-                            <div class="carousel-item active" >
+                            <div class="carousel-item active">
                                 <img src="img/proyectos/proyecto_2/1.png" class="d-block w-100" alt="...">
                             </div>
 
@@ -263,11 +246,11 @@
                             </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="prev">
-                            <span  aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
                             <span class="visually-hidden">Previous</span>
                         </button>
                         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching2" data-bs-slide="next">
-                            <span  aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
                             <span class="visually-hidden">Next</span>
                         </button>
                         <div class="card">
@@ -288,70 +271,32 @@
                     </div>
                 </div>
             </div>
-
+            <!-- CV  -->
             <div class="row mt-5 d-flex bg-white bg-gradient border rounded d-flex justify-content-center">
-                <h2>Contacto</h2>
-                <a name="contacto"></a>
-                <div class="nueva_seccion">
-                </div>
-
-                <div class="col-md-6 mt-4 bg-light bg-gradient border border-light " data-aos="flip-up" data-aos-duration="1200">
-
-                    <form method="POST" action="php/email.php">
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">Email</label>
-                            <input type="email" class="form-control" aria-describedby="emailHelp" name="c_femail" required>
-
-                        </div>
-                        <div class="mb-3">
-                            <label for="exampleInputPassword1" class="form-label">Nombre</label>
-                            <input type="text" class="form-control" name="c_fname" required><br>
-                            <label>Mensaje</label>
-                        </div>
-
-
-                        <textarea cols="40" rows="10" name="c_fmensaje" required></textarea><br>
-                        <button type="submit" class="btn btn-primary btn-md" name="enviaremail">Enviar</button>
-                    </form>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-3">
-                        <?php
-                        if (isset($_GET['success'])) {
-                        ?>
-                            <div class="alert alert-success" role="alert">
-                                Mensaje Enviado!
-                            </div>
-                        <?php
-                        }
-                        ?>
-                    </div>
-                </div>
-
-                <div class="row mt-3 bg-white bg-gradient">
-                    </h2>
-                    <div class="col-md-12  border-0 rounded footer">
-                        <div class="footer">
-                            <div id="button-up">
-                                <i class=" bi bi-arrow-up-circle-fill"></i>
-                            </div>
-                            <span class="text-white d-flex justify-content-center"> <?php echo date("Y"); ?> Yacdany Arguedas Mora | Cartago,Turrialba </span>
-                        </div>
-                    </div>
+                <h2>Curriculum</h2>
+                <a name="CV"></a>
+                <div class="embed-responsive embed-responsive-21by9" style="height: 900px;">
+                    <iframe style="width: 100%;height:900px;" class="embed-responsive-item" src="CV/YACDANY ARGUEDAS MORA CV.pdf"></iframe>
                 </div>
             </div>
+            <!-- FOOTER -->
+            <div class="row mt-3 bg-white bg-gradient">
+                <?php
+                include_once 'layouts/footer.php';
+                ?>
+            </div>
         </div>
+    </div>
 
-        <script src="css/boostsrap/js/bootstrap.bundle.js"></script>
-        <script src="css/aos/dist/aos.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-        <script>
-            AOS.init();
-        </script>
+    <script src="css/boostsrap/js/bootstrap.bundle.js"></script>
+    <script src="css/aos/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
 
-        <script src="js/menu_responsive.js"></script>
-        <script src="js/btn_subir.js"></script>
+    <script src="js/menu_responsive.js"></script>
+    <script src="js/btn_subir.js"></script>
 </body>
 
 </html>
