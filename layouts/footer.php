@@ -1,4 +1,4 @@
-<div class="col-md-12  border-0 rounded footer">
+<div class="side_light col-md-12  border-0 rounded footer" id="footer">
     <div class="footer">
         <div class="darkMode">
             <i class="bi bi-moon-stars-fill" id="switchMode"></i>

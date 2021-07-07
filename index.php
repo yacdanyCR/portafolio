@@ -24,7 +24,7 @@
     <div class=" p-1 my-container active-cont">
 
         <nav class="navbar top-navbar navbar-light  px-5">
-            <a class="btn border-0 menu-btn" id="menu-btn"><i class="bi bi-list"></i></a>
+            <a class="side_light btn border-0 menu-btn" id="menu-btn"><i class="bi bi-list"></i></a>
         </nav>
 
         <div class="container">
