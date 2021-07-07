@@ -24,7 +24,7 @@
     <!-- HTML SVG -->
     <div class="col-md-4 mt-4">
         <div class="col-md-4">
-            <div class="card  bg-white bg-gradient border-0 rounded" style="width: 18rem;">
+            <div class="card bg-white bg-gradient border-0 rounded" style="width: 18rem;">
 
                 <svg xmlns="http://www.w3.org/2000/svg" width="1771" height="2500" viewBox="221.807 89.47 440 621.061" enable-background="new 221.807 89.47 440 621.061">
                     <filter id="a" width="150%" height="150%" x="-5%" y="-5%">

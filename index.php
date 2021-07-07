@@ -60,6 +60,7 @@
 
     <script src="js/menu_responsive.js"></script>
     <script src="js/btn_subir.js"></script>
+    <script src="js/darkMode.js"></script>
 </body>
 
 </html>

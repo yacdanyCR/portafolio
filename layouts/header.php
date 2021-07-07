@@ -1,4 +1,4 @@
-<div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column sidebar" id="sidebar">
+<div class="side-navbar side_light active-nav d-flex justify-content-between flex-wrap flex-column sidebar" id="sidebar">
     <ul class="nav flex-column text-white w-100">
         <img src="img/logo/40683814_2024764377585594_7330819088991649792_n.jpg" style="width:100%;" alt="">
         <a href="index.php" class="nav-link h3 text-white my-2">

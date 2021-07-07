@@ -226,8 +226,11 @@ url("./fonts/bootstrap-icons.woff?231ce25e89ab5804f9a6c427b8d325c9") format("wof
 .bi-brightness-alt-high::before { content: "\f1ce"; }
 .bi-brightness-alt-low-fill::before { content: "\f1cf"; }
 .bi-brightness-alt-low::before { content: "\f1d0"; }
-.bi-brightness-high-fill::before { content: "\f1d1"; }
-.bi-brightness-high::before { content: "\f1d2"; }
+.bi-brightness-high-fill::before { content: "\f1d1";
+  color: yellow;
+  font-size: 40px;
+ }
+.bi-brightness-high::before { content: "\f1d2"; color: yellow; font-size: 40px;}
 .bi-brightness-low-fill::before { content: "\f1d3"; }
 .bi-brightness-low::before { content: "\f1d4"; }
 .bi-broadcast-pin::before { content: "\f1d5"; }
@@ -935,7 +938,7 @@ color: #100901;font-size: 80px; }
 .bi-minecart::before { content: "\f492"; }
 .bi-moisture::before { content: "\f493"; }
 .bi-moon-fill::before { content: "\f494"; }
-.bi-moon-stars-fill::before { content: "\f495"; }
+.bi-moon-stars-fill::before { content: "\f495"; color: #2e2e2e; font-size: 40px; }
 .bi-moon-stars::before { content: "\f496"; }
 .bi-moon::before { content: "\f497"; }
 .bi-mouse-fill::before { content: "\f498"; }
