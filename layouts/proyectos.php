@@ -1,5 +1,5 @@
 <div class="row mt-5 bg-white bg-gradient border rounded">
-    <h2>Mis Proyectos</h2>
+    <h2>Projects</h2>
     <hr>
     <div class="col-md-6 mt-5 ">
         <a name="proyectos"></a>
@@ -31,11 +31,12 @@
             </button>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Práctica Supervisada Restaurante Betico Mata & Parrilla</h5>
-                    <p class="card-text">Desarrollar un sitio para una pymes con una duración de 3 meses para concluir con la capacitación.</p>
+                    <h5 class="card-title">3 month internship at Betico Mata & Parrilla Restaurant</h5>
+                    <p class="card-text">Develop a web application with a duration of 3 months to conclude with the supervised practice.</p>
                     <ul>
-                        <li>Panel de Administración para el dueño</li>
-                        <li>Formulario de Contacto</li>
+                        <li>Administration Panel</li>
+                        <li>Contact Form</li>
+                        <li>Responsive Design</li>
                     </ul>
                 </div>
             </div>
@@ -76,17 +77,16 @@
             </button>
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title">Mini Mercado Libre</h5>
-                    <p class="card-text">Aplicación web donde cada usuario puede publicar sus productos y realizar varias de las funciones de un mercado libre como:</p>
+                    <h5 class="card-title">Market</h5>
+                    <p class="card-text">Web application where each user can publish their products and perform several of the functions of a online market such as:</p>
                     <ul>
-                        <li>Iniciar Sessión</li>
-                        <li>Registrarse</li>
-                        <li>Agregar,Quitar,Eliminar,Actualizar sus Productos</li>
-                        <li>Ver productos de otros Usuarios</li>
-                        <li>Comentar los productos</li>
-                        <li>Formulario de Contacto</li>
+                        <li>Login</li>
+                        <li>Add,Delete,Update their products</li>
+                        <li>You can see products from other users</li>
+                        <li>Personal Information of the product owner</li>
+                        <li>Products comment</li>
+                        <li>Contact Form</li>
                     </ul>
-
                 </div>
             </div>
         </div>

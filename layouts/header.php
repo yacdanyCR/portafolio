@@ -7,15 +7,15 @@
         <li href="#" class="nav-link">
             <i class="bx bxs-dashboard"></i>
             <span class="mx-2"><i class="bi bi-gear-wide-connected"></i><a href="#habilidades">
-                    Habilidades</a></span>
+                    Skills</a></span>
         </li>
         <li href="#" class="nav-link">
             <i class="bx bx-user-check"></i>
-            <span class="mx-2"><i class="bi bi-cpu-fill"></i><a href="#proyectos"> Proyectos </a></span>
+            <span class="mx-2"><i class="bi bi-cpu-fill"></i><a href="#proyectos"> Projects </a></span>
         </li>
         <li href="#" class="nav-link">
             <i class="bx bx-conversation"></i>
-            <span class="mx-2"><i class="bi bi-file-earmark"></i> <a href="#CV"> Curriculum </a></span>
+            <span class="mx-2"><i class="bi bi-file-earmark"></i> <a href="#CV"> Resume </a></span>
         </li>
     </ul>
 

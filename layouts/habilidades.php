@@ -1,6 +1,6 @@
 <div class="row bg-white bg-gradient border rounded" data-aos="fade-right" data-aos-duration="2000">
     <a name="habilidades"></a>
-    <h2 class=" p-3  bg-white bg-gradient border-0" data-aos="fade-right">Habilidades
+    <h2 class=" p-3  bg-white bg-gradient border-0" data-aos="fade-right">Skills
     </h2>
     <hr>
     <!-- CSS SVG -->
