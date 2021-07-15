@@ -92,3 +92,42 @@
         </div>
     </div>
 </div>
+
+<div class="row mt-2 bg-white bg-gradient border rounded">
+<div class="col-md-6 mt-5">
+        <div id="carouselExampleControlsNoTouching3" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner" data-bs-interval="10000">
+
+                <div class="carousel-item active">
+                    <img src="img/proyectos/proyecto_3/crud_api_1.png" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/proyectos/proyecto_3/crud_api_2.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/proyectos/proyecto_3/crud_api_3.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="prev">
+                <span aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching3" data-bs-slide="next">
+                <span aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Dragon Ball Z Fake Rest Api</h5>
+                    <p class="card-text">Web application where each user can publish their products and perform several of the functions of a online market such as:</p>
+                    <ul>
+                       <li>DOM Manipulation</li>
+                       <li>Http methods (GET,POST,PUT,DELETE)</li>
+                       <li>CRUD</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
