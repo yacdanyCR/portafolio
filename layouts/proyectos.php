@@ -120,7 +120,7 @@
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Dragon Ball Z Fake Rest Api</h5>
-                    <p class="card-text">Web application where each user can publish their products and perform several of the functions of a online market such as:</p>
+                    <p class="card-text">CRUD Rest Api with JSON Server</p>
                     <ul>
                        <li>DOM Manipulation</li>
                        <li>Http methods (GET,POST,PUT,DELETE)</li>
